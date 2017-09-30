@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1129" started-at="2017-03-28T09:11:07Z" finished-at="2017-03-28T09:11:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1129" started-at="2017-03-28T09:11:07Z" finished-at="2017-03-28T09:11:08Z">
+      <class name="testcase.findingduplicates">
+        <test-method status="PASS" signature="test2()[pri:0, instance:testcase.findingduplicates@d62f43]" name="test2" duration-ms="1095" started-at="2017-03-28T14:41:07Z" finished-at="2017-03-28T14:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testcase.findingduplicates -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
