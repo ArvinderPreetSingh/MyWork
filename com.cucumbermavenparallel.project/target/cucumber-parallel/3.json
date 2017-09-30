@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7133370615,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "IE Testing",
+        "description": "",
+        "id": "ie;ie-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17983500376,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Do IE testing",
+            "match": {
+              "location": "StepDefination.do_IE_testing()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "IE",
+    "description": "",
+    "id": "ie",
+    "keyword": "Feature",
+    "uri": "E:/com.cucumbermavenparallel.project/src/test/resources/features/ie.feature"
+  }
+]

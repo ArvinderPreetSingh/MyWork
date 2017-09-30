@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7832319084,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Chrome Testing",
+        "description": "",
+        "id": "chrome;chrome-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17277469188,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Do Chrome testing",
+            "match": {
+              "location": "StepDefination.do_Chrome_testing()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3022983033,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Chromes Testing",
+        "description": "",
+        "id": "chrome;chromes-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5797799561,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Do Chromes testing",
+            "match": {
+              "location": "StepDefination.do_Chromes_testing()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Chrome",
+    "description": "",
+    "id": "chrome",
+    "keyword": "Feature",
+    "uri": "E:/com.cucumbermavenparallel.project/src/test/resources/features/chrome.feature"
+  }
+]

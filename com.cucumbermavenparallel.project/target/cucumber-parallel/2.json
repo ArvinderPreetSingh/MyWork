@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7354408772,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Firefox Testing",
+        "description": "",
+        "id": "firefox;firefox-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17512591638,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Do firefox testing",
+            "match": {
+              "location": "StepDefination.do_firefox_testing()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Firefox",
+    "description": "",
+    "id": "firefox",
+    "keyword": "Feature",
+    "uri": "E:/com.cucumbermavenparallel.project/src/test/resources/features/firefox.feature"
+  }
+]
