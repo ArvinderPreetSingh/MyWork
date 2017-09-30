@@ -18,7 +18,7 @@ import org.testng.log4testng.Logger;
 
 public class HtmlReporter 
 {
-
+//Adding comment
 static final String PROJECTNAME = "MYPROJECT";
 static SimpleDateFormat sdfDate = new SimpleDateFormat("dd-MM-yyyy");
 static Date now = new Date();
