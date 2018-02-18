@@ -98,6 +98,7 @@ public class ExcelReaderUtil
                cell = row.createCell(col_Num);
 
            cell.setCellValue(value);
+         
 
            fos = new FileOutputStream(xlFilePath);
            workbook.write(fos);
@@ -174,7 +175,8 @@ public String getCellData(String sheetName, String colName, int rowNum)
            cell = row.getCell(col_Num);
 
            if(cell.getCellType() == Cell.CELL_TYPE_STRING)
-               return cell.getStringCellValue();
+            return cell.getStringCellValue();
+        	
            else if(cell.getCellType() == Cell.CELL_TYPE_NUMERIC || cell.getCellType() == Cell.CELL_TYPE_FORMULA)
            {
                String cellValue = String.valueOf(cell.getNumericCellValue());

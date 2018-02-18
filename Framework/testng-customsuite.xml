@@ -3,7 +3,7 @@
 <suite name="Default suite">
   <test verbose="1" name="Default test">
     <classes>
-      <class name="testcase.Executetest"/>
+      <class name="testcase.Testing"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->

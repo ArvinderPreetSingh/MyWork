@@ -40,7 +40,7 @@ public class Globalutil
 
 	public  void input(By WebElement, String keys)
 	{
-		getDriver().findElement(WebElement).sendKeys(keys);
+		driver.findElement(WebElement).sendKeys(keys);
 	}
 
 	public  void quitDriver()

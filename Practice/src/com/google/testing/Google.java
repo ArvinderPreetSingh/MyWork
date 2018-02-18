@@ -1,6 +1,5 @@
 package com.google.testing;
 
-import java.util.Vector;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Point;
